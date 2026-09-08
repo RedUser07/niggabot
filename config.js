@@ -12,21 +12,20 @@ const pkg = JSON.parse(await fs.promises.readFile(new URL('./package.json', impo
 const moduleCache = new NodeCache({ stdTTL: 300 });
 
 	
-global.gab = ['393882471151',]
+global.gab = ['393761640595',]
 global.owner = [
-  ['393792036333', 'Lucifero', true],
-  ['393892430108', 'Gab', true],
-  ['66621409462', 'Matte', true],
-  ['393701330693', 'Blood', true],
+  ['393761640595', 'deadly', true],
+  ['393520981708', 'young', true],
+  ['393762883794', 'red', true],
 ]
 
 
-global.nomepack = '333'
-global.nomebot = ' ꙰ 𝟥𝟥𝟥 𝔹𝕆𝕋  ꙰'
-global.wm = '333'
-global.autore = 'gab'
-global.dev = 'lucifero'
-global.testobot = `333`
+global.nomepack = '𝑵𝑰𝑮𝑮𝑨-𝑩𝑶𝑻'
+global.nomebot = '𝑵𝑰𝑮𝑮𝑨-𝑩𝑶𝑻'
+global.wm = 'nigga-bot'
+global.autore = 'nigga'
+global.dev = 'nigga'
+global.testobot = `nigga`
 global.versione = pkg.version
 global.errore = '⚠️ *Errore inatteso!* Usa il comando `.ticket` per avvisare gli owner.'
 
